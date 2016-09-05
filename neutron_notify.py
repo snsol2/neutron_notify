@@ -17,7 +17,6 @@ ONOS_REST_URL = "http://10.10.106.97:8181/"
 
 # log.basicConfig(stream=sys.stdout, level=log.DEBUG)
 log.basicConfig(filename='/tmp/neutron_noti.log', level=log.DEBUG)
-# log.basicConfig(filename='/tmp/neutron_noti.log', level=log.DEBUG)
 
 
 class NotificationsDump(ConsumerMixin):
