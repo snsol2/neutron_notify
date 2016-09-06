@@ -40,7 +40,7 @@ class NotificationsDump(ConsumerMixin):
             # log.info('Relay Result: %s' % r.status_code)
         except Exception as e:
             print ('ONOS Send result: $r' % e)
-        log.info('---------------')
+        log.info('%s' % '-'*80)
 
 if __name__ == "__main__":
     log.info('\n\n > Neutron Notification Relay tool start')
